@@ -1,7 +1,6 @@
 {
   "name": "13nov-crud-apis-boilerplate",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +8,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^5.1.2",
     "express": "^4.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Myrausman/GDSC-JSON-CRUD-API-TUTORIAL.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Myrausman/GDSC-JSON-CRUD-API-TUTORIAL/issues"
+  },
+  "homepage": "https://github.com/Myrausman/GDSC-JSON-CRUD-API-TUTORIAL#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }

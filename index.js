@@ -112,6 +112,15 @@ app.put("/posts/:id", function (req, res) {
 });
 
 // Assignment, create delete post route using filter method
+app.delete("/posts/:postId", function (req, res) {
+  var id = req.params.postId;
+
+  for (var i = 0; i < postsData.length; i++) {
+    if (postsData[i].id == id) {
+      postsData.splice(i,1)
+      return res.status(201).json();
+    }}
+});
 
 app.listen(3000, function () {
   console.log("Server is running");
